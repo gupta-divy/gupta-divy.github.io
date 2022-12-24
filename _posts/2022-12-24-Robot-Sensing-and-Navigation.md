@@ -8,6 +8,8 @@ categories: blog
 
 This repository contains my lab and project work from EECE5554 course at Northeastern University. In this course, we examined the actual sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, sonars, and laser scanners. These are used in association with techniques and algorithms for dead reckoning and visual inertial odometry in conjunction with GPS and inertial measurement units. A large component of the class involved programming in both the ROS and MATLAB environments with real field robotics sensor data sets. 
 
+
+
 ## Lab/Project Description
 
 ### GPS
