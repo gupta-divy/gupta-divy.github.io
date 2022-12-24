@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Robot Sensing and Navigation"
 layout: post
 categories: blog
 ---
