@@ -8,7 +8,7 @@ PredicKOA or Predicting Knee Osteoarthritis was my undergraduate thesis project 
 
 
 ## So, how it works?
-![PredicKOA working](/assets/predicKOA_process.jpg))
+![PredicKOA working](/assets/predicKOA_process.jpg)
 
 ### Prototype
 Hardware setup included 7-modules for data-collection placed on lower-body(Lower-back, Thigh, Shank and Ankle) and each module used a NodeMCU(ESP8266), low-cost Wi-Fi enabled microcontroller and a MPU9250, 9DoF inertial sensors. UI interface developed using MATLAB was used to send triggers over Wi-Fi for data-collection and system was hardcoded to trigger with different delays to enable approximate synchronization of data from each module. The raw inertial data (Gyroscope, accelerometer and magnetometer) collected by these modules is transferred to the system over Wi-Fi which is pre-processed using Kalman Filter to generate and store orientation data for each IMU sensor or attached body part.
