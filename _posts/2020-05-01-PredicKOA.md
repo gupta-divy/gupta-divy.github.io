@@ -19,4 +19,4 @@ Gait features includes walking speed, stride time, and others like initial and f
 ### Predicting Knee Osteoarthritis (KOA)
 Estimated gait features and joint angles (kinematics) acts as bio-markers as they changes with progressing knee osteoarthritis. Some of these bio-markers includes decrease in range of motion for Knee Flexion and Hip Flexion, decrease in Peak Flexion angle at Heel Strike and Midswing, increased double support time, etc. Multiple-linear regression model could be trained to predict KOA progress with accuracy. However, in this project dataset was not large enough to derive meaningful conclusions. 
 
-Project was not concluded and was hindered by COVID-19 (2021, received A+ for progress). However, this project gave me a deeper understanding on science of bipedal walking and other biomechanical concepts.
+Project was not concluded and was hindered by COVID-19 (2020, received A+ for progress). However, this project gave me a deeper understanding on science of bipedal walking and other biomechanical concepts.
