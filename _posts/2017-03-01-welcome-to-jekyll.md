@@ -1,25 +1,20 @@
 ---
-title: "Welcome to Jekyll"
+title: "PredicKOA- Predicting Knee-Osteoarthritis using IMUs"
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+PredicKOA or Predicting Knee Osteoarthritis was my undergraduate thesis project at IIT Roorkee. The goal of the project was to build a device / methodology to predict the onset and track the progress of Knee Osteoarthritis in elderly using wireless low-cost inertial sensors. This project was inspired by lack of Motion capture technology and the skillset required to operate them in budget contrained settings with poor healthcare infrastructure- rural areas, developing countries, etc. Additionally, it can help in better identifying new bio-markers for diseases affecting the muskuloskeletal system with motion data from users in their natural work / home setting. Furthermore, application of this could be extended to track progress of other physio / neurological diseases affecting mobility especially in elderly.
 
+## So, how it works?
+![PredicKOA working](/assets/predicKOA_process.jpg))
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Prototype
+Hardware setup included 7-modules for data-collection placed on lower-body(Lower-back, Thigh, Shank and Ankle) and each module used a NodeMCU(ESP8266), low-cost Wi-Fi enabled microcontroller and a MPU9250, 9DoF inertial sensors. UI interface developed using MATLAB was used to send triggers over Wi-Fi for data-collection and system was hardcoded to trigger with different delays to enable approximate synchronization of data from each module. The raw inertial data (Gyroscope, accelerometer and magnetometer) collected by these modules is transferred to the system over Wi-Fi which is pre-processed using Kalman Filter to generate and store orientation data for each IMU sensor or attached body part.
 
-Jekyll also offers powerful support for code snippets:
+### Estimating Gait features and Joint Kinematics:
+Gait features includes walking speed, stride time, and others like initial and final foot contact. These features are usually affected by neuro-muskuloskeletal diseases; Eg. Imagine yourself walking when you are mentally exhausted vs when you are energized, this is the effect of neurological factors on your gait pattern. There are multiple ways to estimate these parameters and for this project I used vertical acceleration data from IMU placed at lower-back with [GaitPy algorithm](https://pypi.org/project/gaitpy/) by Matthew Czech to extract these features. Further, joint angles were calculated using [OpenSense (OpenSim)](https://simtk.org/projects/opensense) which takes in orientation data of IMUs and estimate joint kinematics.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Predicting Knee Osteoarthritis (KOA)
+Estimated gait features and joint angles (kinematics) acts as bio-markers as they changes with progressing knee osteoarthritis. Some of these bio-markers includes decrease in range of motion for Knee Flexion and Hip Flexion, decrease in Peak Flexion angle at Heel Strike and Midswing, increased double support time, etc. Multiple-linear regression model could be trained to predict KOA progress with accuracy. However, in this project dataset was not large enough to derive meaningful conclusions. 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Project was not concluded and was hindered by COVID-19 (2021, received A+ for progress). However, this project gave me a deeper understanding on science of bipedal walking and other biomechanical concepts.
