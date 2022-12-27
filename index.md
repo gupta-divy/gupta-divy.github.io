@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-<img align="left" width="200" height="200" src="/assets/my_photo.jpg" hspace=50 vspace=0>
+<img align="left" width="200" height="200" src="/assets/my_photo.jpg" hspace="250" vspace="0">
 
 I am a Mechanical design engineer transitioning to control-systems, enabling robots to mimic bio-inspired efficient movements. Working at this crux of hardware and software engineering really excites me, and I aspire to build a deeper understanding on this topic through my master's at Northeastern University in MS Robotics (Fall'22 - Present). Apart from work, I enjoy cooking, sketching, hiking and swimming.
 
