@@ -9,7 +9,7 @@ This work is part of EECE5554 course at Northeastern University. In this course,
 
 ## Lab/Project Description [(Github)](https://github.com/gupta-divy/Robot-Sensing-and-Navigation)
 
-### GPS [Details](https://github.com/gupta-divy/Robot-Sensing-and-Navigation/blob/main/GPS/src/report.pdf)
+### GPS [(Details)](https://github.com/gupta-divy/Robot-Sensing-and-Navigation/blob/main/GPS/src/report.pdf)
 In this lab we worked with USB-based GPS module (BU-353S4), where we collected and analyzed data in stationary and moving conditions to understand the working principle of GPS and factors affecting accuracy of the module. Key insight: GPS module works better in moving condition compared to stationary. 
 
 ### RTK-GPS [(Details)](https://github.com/gupta-divy/Robot-Sensing-and-Navigation/blob/main/RTK-GPS/src/report.pdf)
