@@ -18,8 +18,8 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About me", file: "index.md"}
   - {title: "Projects", file: "projects.html"}
-  - {title: "Resume", url: "https://external.ink?to=/github.com/gupta-divy/gupta-divy.github.io/blob/main/linked_assets/Resume_Divyansh.pdf"}
-  - {title: "Portfolio", url: "https://external.ink?to=/github.com/gupta-divy/gupta-divy.github.io/blob/main/linked_assets/Portfolio_Divyansh.pdf"}
+  - {title: "Resume", url: "https://github.com/gupta-divy/gupta-divy.github.io/blob/main/linked_assets/Resume_Divyansh.pdf"}
+  - {title: "Portfolio", url: "https://github.com/gupta-divy/gupta-divy.github.io/blob/main/linked_assets/Portfolio_Divyansh.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "gupta.divy@northeastern.edu"}
