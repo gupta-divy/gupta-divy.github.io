@@ -22,7 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Portfolio", url: "https://github.com/gupta-divy/gupta-divy.github.io/blob/main/linked_assets/Portfolio_Divyansh.pdf"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "gupta.divy@northeastern.edu"}
+  - {title: Mail, icon: envelope, url: "mailto:gupta.divy@northeastern.edu"}
   - {title: Github, icon: github, url: "https://github.com/gupta-divy/"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/divyansh2504/"}
 
