@@ -1,5 +1,5 @@
 ---
-title:  "Advanced examples"
+title:  "Redesigned Crutches"
 mathjax: true
 layout: post
 categories: media

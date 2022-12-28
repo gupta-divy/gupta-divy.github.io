@@ -1,5 +1,5 @@
 ---
-title:  "Markdown examples"
+title:  "Chitrak-Quadruped Robot"
 layout: post
 ---
 
