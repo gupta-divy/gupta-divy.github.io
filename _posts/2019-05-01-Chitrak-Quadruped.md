@@ -5,6 +5,8 @@ layout: post
 
 Quadrupeds, in general legged robots are superior to wheeled robots in terms of traverisng complex terrains with potential applications in space Exploration, caves / mine inspection, construction sites, etc. However, compared to wheeled robots they are much less efficient with same form-factor. 
 
+
+
 ## How we approached this problem?
 Imagine yourself standing for 1hr, your legs will start hurting gradually. Though theoretically you are not moving but to maintain your stance your muscles are actively working. Similar thing happens with legged robots; to keep their stance joint motor needs to apply continuous torque (thus continuous current consumption). One simple solution for this could be - designing a controller that employs static equillibrium when not moving. However, with sensor noise, design constraints and external disturbances achieving this could be a little challenging.
 
