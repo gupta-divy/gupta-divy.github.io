@@ -3,83 +3,20 @@ title:  "Chitrak-Quadruped Robot"
 layout: post
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Quadrupeds, in general legged robots are superior to wheeled robots in terms of traverisng complex terrains with potential applications in space Exploration, caves / mine inspection, construction sites, etc. However, compared to wheeled robots they are much less efficient with same form-factor. 
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit.
+## How we approached this problem?
+Imagine yourself standing for 1hr, your legs will start hurting gradually. Though theoretically you are not moving but to maintain your stance your muscles are actively working. Similar thing happens with legged robots; to keep their stance joint motor needs to apply continuous torque (thus continuous current consumption). One simple solution for this could be - designing a controller that employs static equillibrium when not moving. However, with sensor noise, design constraints and external disturbances achieving this could be a little challenging.
 
+In this project, we used self-locking actuators at each joint (2 dof for each leg) that ensures static state at all angles.
 
-## Heading Two (h2)
+## Individual Contribution:
+![Iteration 1](/assets/Chitrak_Iteration_1.png)
 
-### Heading Three (h3)
+![Iteration 2](/assets/Chitrak_Iteration_2.png)
 
-#### Heading Four (h4)
+We worked on this project during my pre-final year at IIT Roorkee as part of [Models and Robotics Section, IIT-R](https://mars.iitr.ac.in/), which is a student led robotics group. I worked on the design and kinematic simulation of first two iterations of the robot. This project was selected for Engineers Conclave (Student led undergraduate projects) to represent college in InterIIT-Tech Meet 2019. 
 
-##### Heading Five (h5)
+{% include embed.html url="https://youtu.be/embed/hBBhkbbs5qY" %}
 
-###### Heading Six (h6)
-
-
-## Blockquotes
-
-### Single line
-
-> My mom always said life was like a box of chocolates. You never know what you're gonna get.
-
-### Multiline
-
-> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
->
-> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
->
-> – _Hal Incandenza_
-
-## Horizontal Rule
-
----
-
-## Table
-
-| Title 1          | Title 2          | Title 3         | Title 4         |
-|------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
-| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
-| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
-| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
-
-## Code
-
-Source code can be included by fencing the code with three backticks. Syntax highlighting works automatically when specifying the language after the backticks.
-
-````
-```javascript
-function foo () {
-    return "bar";
-}
-```
-````
-
-This would be rendered as:
-
-```javascript
-function foo () {
-    return "bar";
-}
-```
-
-## Lists
-
-### Unordered
-
-* First item
-* Second item
-* Third item
-    * First nested item
-    * Second nested item
-
-### Ordered
-
-1. First item
-2. Second item
-3. Third item
-    1. First nested item
-    2. Second nested item
+{% include embed.html url="https://youtu.be/embed/Yxk5NU94QKA" %}
