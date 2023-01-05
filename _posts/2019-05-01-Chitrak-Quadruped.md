@@ -13,9 +13,9 @@ Imagine yourself standing for 1hr, your legs will start hurting gradually. Thoug
 In this project, we used self-locking actuators at each joint (2 dof for each leg) that ensures static state at all angles.
 
 ## Individual Contribution:
-<img align="left" width="200" height="100" src="/assets/Chitrak_Iteration_1.png" style="padding-right: 15px;">
+<img align="left" width="200px" height="100px" src="/assets/Chitrak_Iteration_1.png" style="padding-right: 15px;">
 
-<img align="right" width="200" height="100" src="/assets/Chitrak_Iteration_2.png" style="padding-right: 15px;">
+<img align="right" width="200px" height="100px" src="/assets/Chitrak_Iteration_2.png" style="padding-right: 15px;">
 
 We worked on this project during my pre-final year at IIT Roorkee as part of [Models and Robotics Section, IIT-R](https://mars.iitr.ac.in/), which is a student led robotics group. I worked on the design and kinematic simulation of first two iterations of the robot. This project was selected for Engineers Conclave (Student led undergraduate projects) to represent college in InterIIT-Tech Meet 2019. 
 
