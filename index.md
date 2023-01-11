@@ -12,4 +12,4 @@ Before starting my graduate studies at Northeastern University, I have worked as
 Apart from work, I really enjoy getting creative with dishes, exploring museums, and video games (RPGs).
 
 ## My life motto
-If you know you can, there is no way you could settle for less
+"If you know you can, there is no way you could settle for less"
