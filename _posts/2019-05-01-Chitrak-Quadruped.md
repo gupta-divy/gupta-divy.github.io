@@ -17,8 +17,12 @@ In this project, we used self-locking actuators at each joint (2 dof for each le
 
 <img width="320px" height="100px" src="/assets/Chitrak_Iteration_2.png" style="padding-left: 15px;">
 
-We worked on this project during my pre-final year at IIT Roorkee as part of [Models and Robotics Section, IIT-R](https://mars.iitr.ac.in/), which is a student led robotics group. I worked on the design and kinematic simulation of first two iterations of the robot. This project was selected for Engineers Conclave (Student led undergraduate projects) to represent college in InterIIT-Tech Meet 2019. 
+I worked on this project during my pre-final year at IIT Roorkee as part of [Models and Robotics Section, IIT-R](https://mars.iitr.ac.in/), which is a student led robotics group. In this project, I worked on the design and kinematic simulation of first two iterations of the robot. This project was selected for Engineers Conclave (among Student-led projects category) to represent college in InterIIT-Tech Meet 2019.
 
+## Check out our project videos:
+
+Iteration 1:
 [![Chitrak Iteration 1](https://img.youtube.com/vi/Yxk5NU94QKA/0.jpg)](https://www.youtube.com/watch?v=Yxk5NU94QKA)
 
+Iteration 2:
 [![Chitrak Iteration 2](https://img.youtube.com/vi/hBBhkbbs5qY/0.jpg)](https://www.youtube.com/watch?v=hBBhkbbs5qY)
