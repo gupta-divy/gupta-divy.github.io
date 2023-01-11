@@ -21,9 +21,6 @@ I worked on this project during my pre-final year at IIT Roorkee as part of [Mod
 
 ## Check out our project videos:
 
-Iteration 1:\
-
 [![Chitrak Iteration 1](https://img.youtube.com/vi/Yxk5NU94QKA/0.jpg)](https://www.youtube.com/watch?v=Yxk5NU94QKA)
 
-Iteration 2:\
 [![Chitrak Iteration 2](https://img.youtube.com/vi/hBBhkbbs5qY/0.jpg)](https://www.youtube.com/watch?v=hBBhkbbs5qY)
