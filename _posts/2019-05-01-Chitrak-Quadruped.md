@@ -24,3 +24,5 @@ I worked on this project during my pre-final year at IIT Roorkee as part of [Mod
 [![Chitrak Iteration 1](https://img.youtube.com/vi/Yxk5NU94QKA/0.jpg)](https://www.youtube.com/watch?v=Yxk5NU94QKA)
 
 [![Chitrak Iteration 2](https://img.youtube.com/vi/hBBhkbbs5qY/0.jpg)](https://www.youtube.com/watch?v=hBBhkbbs5qY)
+
+{% include embed.html url="https://www.youtube.com/embed/hBBhkbbs5qY" %}
