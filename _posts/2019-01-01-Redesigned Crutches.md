@@ -8,6 +8,7 @@ To minimize the risk of crutch palsy and similar diseases, I redesigned crutches
 
 ## How it works?
 In the crutch walking gait cycle, crutch stance phase follows the dynamics of a double inverted pendulum in which crutch acts as Link1 and our body acts as Link2. Leveraging this dynamics and providing a rigid support to the body at pelvis for swinging at the end of link2, enabled load transfer.
+
 ![Crutch walking cycle](/assets/Crutch_cycle.png)
 ![Crutch working](/assets/Crutch_working.png)
 
