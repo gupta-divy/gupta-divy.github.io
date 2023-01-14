@@ -22,4 +22,4 @@ This design was awarded second prize in Inter-IIT Tech Meet for the problem stat
 ![Crutch iterations](/assets/Crutch_prototypes.png)
 Left: Iteration1, Middle: Iteration2, Right: Iteration3
 
-{% include embed.html url="https://www.youtube.com/embed/shorts/isyfPDoThuw" %}
+{% include embed.html url="https://www.youtube.com/embed/isyfPDoThuw" %}
