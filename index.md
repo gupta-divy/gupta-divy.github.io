@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 <p align="center" width="100%">
-    <img width="33%" src="/assets/my_photo.jpg"> 
+    <img width="20%" src="/assets/my_photo.jpg"> 
 </p>
 <!-- <img align="center" width="120" height="120" src="/assets/my_photo.jpg" style="padding-right: 15px; padding-left: 15px;"> -->
 
