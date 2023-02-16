@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About me", file: "index.md"}
   - {title: "Projects", file: "projects.html"}
   - {title: "Resume", url: "https://drive.google.com/file/d/1FkJOjxYHDQzfefx8wFJeLHnb8g18dUoY/view?usp=share_link"}
-  - {title: "Portfolio", url: "https://drive.google.com/file/d/1E0KCfXUgYp_knnQkkludNXycqHDcTgJv/view?usp=share_link"}
+  - {title: "Portfolio", url: "https://drive.google.com/file/d/1Q2uvnpy8nBNwWHRjpLV6fu97x5mzWLPq/view?usp=share_link"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:gupta.divy@northeastern.edu"}
