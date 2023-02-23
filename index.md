@@ -8,4 +8,4 @@ I am a Mechanical design engineer transitioning to control-systems, enabling rob
 
 Prior to my graduate studies, I received my B.Tech. degree in Mechanical Engineering from the Indian Institute of Technology (IIT) Roorkee, India in 2020 and have worked for more than a year as a Robotics Design Engineer at [OttonomyIO](https://ottonomy.io/), an autonomous delivery robot startup. 
 
-I have a working experience of CAD modeling, classical control theory, ML-based controllers, system modeling, state-estimation and writing sensor drivers. I am seeking internship/co-op opportunities for Summer and Fall 2023 in areas relating to control systems and system modeling. Feel free to reach out to discuss more on my projects and skills.
+I have a working experience of CAD modeling and prototyping, classical control theory, ML-based controllers, system modeling, and sensor analysis. I am seeking internship/co-op opportunities for Summer and Fall 2023 in areas relating to machine learning and  control systems. Feel free to reach out to discuss more on my projects and skills.
