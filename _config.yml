@@ -25,7 +25,6 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:gupta.divy@northeastern.edu"}
   - {title: Github, icon: github, url: "https://github.com/gupta-divy/"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/divyansh2504/"}
-
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
