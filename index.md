@@ -4,7 +4,7 @@ title: ""
 ---
 <img align="left" width="320" height="120" src="/assets/my_photo2.png" style="padding-right: 15px; padding-bottom: 15px;">
 
-Hey there, I'm a Mechanical design engineer with a passion for all things robotics! As someone who has always been fascinated by the intersection of hardware and software, transitioning to control-systems was a no-brainer for me. I'm currently pursuing my master's degree in MS Robotics at Northeastern University, where I'm learning everything there is to know about enabling robots to employ natural looking movements.
+Hey there, I'm a robotics engineer with a passion for all things robotics! As someone who has always been fascinated by the intersection of hardware and software, transitioning to control-systems was a no-brainer for me. I'm currently pursuing my master's degree in MS Robotics at Northeastern University, where I'm learning everything there is to know about enabling robots to employ natural looking movements.
 
 Currently, I am developing an Ankle Exoskeleton with deep-learning based task-agnostic controller under the guidance of [Prof. Max Shepherd](https://coe.northeastern.edu/people/shepherd-maxwell/), and I'm also assisting with the course ME7374-Wearable Robotics as a Course Assistant. The opportunity to develop novel controllers and mechanisms is what drew me to this line of work, and I'm always eager to learn and grow in the rapidly advancing field of robotics.
 
