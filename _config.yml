@@ -18,7 +18,7 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About me", file: "index.md"}
   - {title: "Projects", file: "projects.html"}
-  - {title: "Resume", url: "https://drive.google.com/file/d/11779OBogyQ934Wj-cbk-_8RykXrzoZuc/view?usp=share_link"}
+  - {title: "Resume", url: "https://drive.google.com/file/d/1X9DUTjnKjH7xITL_7ujM0fMpHUiMLXsk/view?usp=share_link"}
   - {title: "Portfolio", url: "https://drive.google.com/file/d/1Q2uvnpy8nBNwWHRjpLV6fu97x5mzWLPq/view?usp=share_link"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
