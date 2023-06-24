@@ -19,6 +19,7 @@ navigation: # accepts {file, title, url, icon, sidebaricon}
   - {title: "About me", file: "index.md"}
   - {title: "Projects", file: "projects.html"}
   - {title: "Portfolio", url: "https://drive.google.com/file/d/1Q2uvnpy8nBNwWHRjpLV6fu97x5mzWLPq/view?usp=sharing"}
+  - {title: "Projects Highlight", url: "https://drive.google.com/file/d/128OdRvcZHlTd8sZhr2ak9zaId8v1lzBR/view?usp=sharing"}
 
 external: # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:gupta.divy@northeastern.edu"}
