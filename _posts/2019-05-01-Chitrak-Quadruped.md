@@ -2,9 +2,9 @@
 title:  "Chitrak-Quadruped Robot"
 layout: post
 ---
-<img align="left" width="240" height="100" src="/assets/Chitrak_Iteration_1.png" style="padding-right: 15px; padding-bottom: 15px;">
-Quadrupeds, in general legged robots are superior to wheeled robots in terms of traverisng complex terrains with potential applications in space Exploration, caves / mine inspection, construction sites, etc. However, compared to wheeled robots they are much less efficient with same form-factor.
 
+<img align="left" width="240" height="100" src="/assets/Chitrak_Iteration_1.png" style="padding-right: 15px; padding-bottom: 15px;">
+Quadrupeds and legged robots have gained significant attention in the field of robotics due to their ability to traverse complex terrains. This characteristic makes them particularly advantageous for various applications, including space exploration, caves/mine inspection, and construction sites. Although legged robots offer superior maneuverability over wheeled robots in these challenging environments, they typically exhibit lower efficiency when considering the same form factor. 
 
 
 ## Defining the Problem

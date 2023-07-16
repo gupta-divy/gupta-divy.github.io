@@ -11,7 +11,8 @@ This work is part of EECE5554 course at Northeastern University. In this course,
 ## Project Descriptions [(Github)](https://github.com/gupta-divy/Robot-Sensing-and-Navigation)
 
 ### GPS [(Details)](https://github.com/gupta-divy/Robot-Sensing-and-Navigation/blob/main/GPS/src/report.pdf)
-In this lab we worked with USB-based GPS module (BU-353S4), where we collected and analyzed data in stationary and moving conditions to understand the working principle of GPS and factors affecting accuracy of the module. Key insight: GPS module works better in moving condition compared to stationary. 
+In this lab we worked with USB-based GPS module (BU-353S4), where we collected and analyzed data in stationary and moving conditions to understand the working principle of GPS and factors affecting accuracy of the module. Key insight: GPS module works better in moving condition compared to stationary.
+
 
 ### RTK-GPS [(Details)](https://github.com/gupta-divy/Robot-Sensing-and-Navigation/blob/main/RTK-GPS/src/report.pdf)
 In this lab we worked with RTK_GPS setup using ArduSimple RTK2B-F9P kit, where we setup our own base-station and RF based communication with the GPS module. We collected and analyzed data from different environments (Occluded and Open-field) and conditions (Moving and stationary) to understand the advantages of RTK based setup on the accuracy and precision of GPS. To collect the data, our driver is similar to driver from GPS module, with few additional field published on /gps topic: Fix_quality. Key insight: RTK_setup significantly improved precision from 1.25m GPS to 0.5m RTK_GPS in case of moving condition.

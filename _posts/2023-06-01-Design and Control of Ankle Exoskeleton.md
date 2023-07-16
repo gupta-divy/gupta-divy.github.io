@@ -1,15 +1,15 @@
 ---
-title:  "Design and data-driven Control of Ankle Exoskeleton"
+title:  "Design and ML-based Control of Ankle Exoskeleton"
 layout: post
 ---
-<img align="left" width="160" height="200" src="/assets/AnkleExo_CAD.png" style="padding-right: 15px; padding-bottom: 15px;">
-Currently available crutches do not have the provision for weight distribution due to which long term use leads to intense pressure at one location depending on the type of crutch– Wrist, Elbow, or Underarms. This long-term intense pressure (from forces ~120% body weight) commonly leads to following medical conditions – Crutch Palsy, Wrist Injury, Artery Damage, etc. Lack of training among crutch users further increases the risk due to improper posture while walking with crutch. In India, approximately 13.5 million people are more prone to risk these conditions due to improper crutch handling. 
+<img align="left" width="170" height="220" src="/assets/AnkleExo_CAD.png" style="padding-right: 15px; padding-bottom: 15px;">
+Deteriorating muscles among elderly leads to reduced mobility and independance. And with ankle joint muscle group contributing to ~42% of positive work during walking, ankle exoskeletons have the potential to significantly improve the restricted mobility among elderly. In recent times, there has been increased push in this field of exoskeletons, however there is ample room for improvementin terms of both Design and Control. 
 
-To minimize the risk of crutch palsy and similar diseases, I redesigned crutches to offload the upperbody and transfer 60% of loading forces to pelvis region, thus reducing the intense pressure at one location.
+In this project, I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments which continuously varies and requires walking with different speeds, climbing steps, taking-turns, etc.
 
 
 
-## How it works?
+## Design and Prototype
 In the crutch walking gait cycle, crutch stance phase follows the dynamics of a double inverted pendulum in which crutch acts as Link1 and our body acts as Link2. Leveraging this dynamics and providing a rigid support to the body at pelvis for swinging at the end of link2, enabled load transfer.
 
 ![Crutch walking cycle](/assets/Crutch_cycle.png)
