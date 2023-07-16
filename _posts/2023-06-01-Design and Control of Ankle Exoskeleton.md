@@ -1,7 +1,8 @@
 ---
-title:  "Redesigned Crutches"
+title:  "Design and data-driven Control of Ankle Exoskeleton"
 layout: post
 ---
+<img align="left" width="160" height="200" src="/assets/AnkleExo_CAD.png" style="padding-right: 15px; padding-bottom: 15px;">
 Currently available crutches do not have the provision for weight distribution due to which long term use leads to intense pressure at one location depending on the type of crutch– Wrist, Elbow, or Underarms. This long-term intense pressure (from forces ~120% body weight) commonly leads to following medical conditions – Crutch Palsy, Wrist Injury, Artery Damage, etc. Lack of training among crutch users further increases the risk due to improper posture while walking with crutch. In India, approximately 13.5 million people are more prone to risk these conditions due to improper crutch handling. 
 
 To minimize the risk of crutch palsy and similar diseases, I redesigned crutches to offload the upperbody and transfer 60% of loading forces to pelvis region, thus reducing the intense pressure at one location.
