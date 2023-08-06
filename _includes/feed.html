@@ -1,4 +1,5 @@
 <section class="feed">
+    <p>This is my {{feedType}}</p>
     {%- assign feedPosts = site.posts | where: 'categories', feedType -%}
     {%- for post in feedPosts -%}
         <article>

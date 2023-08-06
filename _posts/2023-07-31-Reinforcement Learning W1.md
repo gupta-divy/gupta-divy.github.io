@@ -8,6 +8,9 @@ Reinforcement learning (RL) is learning what to do in different situations as to
 
 To further understand the funadamentals of reinforcement learning we will look at a simplified setting, where state / environment does not change with actions or time. This particular problem can be explored using a simple version of **k-armed bandit problem**. 
 
+
+
+
 ## K-Bandit Problem:
 K-armed bandit problem originates from a slot machine, where instead of one lever you have k-levers and on pulling each lever you recieve a reward (tickets). Through repeated actions (lever pulling) you are to maximize your earnings by concentrating your actions on the best lever. 
 
