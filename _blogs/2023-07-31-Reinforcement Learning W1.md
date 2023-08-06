@@ -1,6 +1,6 @@
 ---
 title:  "Reinforcement Learning: Introduction to RL with K-Bandit Problem"
-layout: post
+layout: blog
 ---
 ## Introduction
 Reinforcement learning (RL) is learning what to do in different situations as to maximize a numerical reward. Now, what distinguishes RL from other types of learning is - learner is not told which actions to take, but instead learner must discover which action / series of actions will yield the most cumulative reward in some time-period. For example, a master chess player makes a move. The choice is informed by planning, anticipating possible moves and countermoves of the opponent and by judgement of the desirability of particular pieces on the board. 
