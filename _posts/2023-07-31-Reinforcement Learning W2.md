@@ -1,6 +1,7 @@
 ---
 title:  "Reinforcement Learning: Finite Markov Decision Process (MDP)"
-layout: blog
+layout: post
+categories: blog
 ---
 ## Introduction
 

@@ -1,6 +1,7 @@
 ---
 title:  "Design and ML-based Control of Ankle Exoskeleton"
 layout: post
+categories: project
 ---
 <img align="left" width="200" height="250" src="/assets/AnkleExo_CAD.png" style="padding-right: 15px; padding-bottom: 15px;">
 Deteriorating muscles among elderly leads to reduced mobility and independance. And with ankle joint muscle group contributing to ~42% of positive work during walking, ankle exoskeletons have the potential to significantly improve the restricted mobility among elderly. In recent times, there has been increased push in this field of exoskeletons, however there is ample room for improvementin terms of both Design and Control. 

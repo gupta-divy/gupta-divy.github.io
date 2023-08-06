@@ -1,6 +1,7 @@
 ---
 title:  "Chitrak-Quadruped Robot"
 layout: post
+categories: project
 ---
 
 <img align="left" width="240" height="100" src="/assets/Chitrak_Iteration_1.png" style="padding-right: 15px; padding-bottom: 15px;">
