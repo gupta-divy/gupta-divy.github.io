@@ -6,14 +6,9 @@ layout: default
   {{ content }}
 
   {%- assign feedType=page.feed-type -%}
-  {%- if feedType== "blog" -%}
-    <p>Here, there are blogs on topics that I am learning or find interesting, and I have tried to explain <br>
-      them in a simple manner that might be helpful for others learning about the same topic.</p>
+  {%- if feedType== "blog" or feedType=="project" -%}
     {% include feed.html %}
   {%- endif -%}
-  
-  {%- if feedType=="project" -%}
-    {% include feed.html %}
-  {%- endif -%}
+
 </article>
 
