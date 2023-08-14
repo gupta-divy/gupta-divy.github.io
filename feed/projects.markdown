@@ -2,7 +2,6 @@
 layout: page
 title: "Projects"
 feed-type: project
-permalink: /feed/projects
 ---
 
 {% if site.show_excerpts %}
