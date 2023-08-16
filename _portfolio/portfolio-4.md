@@ -1,8 +1,9 @@
 ---
 title: "Robot Sensing and Navigation"
-excerpt: "We have examined the sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, GPS, IMUs, and laser scanners.<br/><img src='/images/RSN_DataCollection.png' width="240" height="120">"
+excerpt: "We have examined the sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, GPS, IMUs, and laser scanners."
 collection: portfolio
 ---
+<img align="left" width="240" height="120" src="/assets/RSN_DataCollection.png" style="padding-right: 15px; padding-bottom: 15px;">
 This work is part of EECE5554 course at Northeastern University. In this course, we examined the actual sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, sonars, and laser scanners. These are used in association with techniques and algorithms for dead reckoning and visual inertial odometry in conjunction with GPS and inertial measurement units. A large component of the class involved programming in both the ROS and MATLAB environments with real field robotics sensor data sets. Individual sub-projects includes writing drivers for different sensors and analysis scripts for the collected data. 
 
 

@@ -1,8 +1,9 @@
 ---
 title: "Robot Sensing and Navigation"
-excerpt: "I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments.<br/><img src='/images/AnkleExo_CAD.png' width="200" height="250">"
+excerpt: "I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments."
 collection: portfolio
 ---
+<img align="left" width="200" height="250" src="/assets/AnkleExo_CAD.png" style="padding-right: 15px; padding-bottom: 15px;">
 Deteriorating muscles among elderly leads to reduced mobility and independance. And with ankle joint muscle group contributing to ~42% of positive work during walking, ankle exoskeletons have the potential to significantly improve the restricted mobility among elderly. In recent times, there has been increased push in this field of exoskeletons, however there is ample room for improvementin terms of both Design and Control. 
 
 In this project, I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments which continuously varies and requires walking with different speeds, climbing steps, taking-turns, etc.
