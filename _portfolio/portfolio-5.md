@@ -1,6 +1,6 @@
 ---
 title: "Robot Sensing and Navigation"
-excerpt: "I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments.<br/><img src='/images/AnkleExo_CAD.png'>"
+excerpt: "I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments.<br/><img src='/images/AnkleExo_CAD.png' width="200" height="250">"
 collection: portfolio
 ---
 Deteriorating muscles among elderly leads to reduced mobility and independance. And with ankle joint muscle group contributing to ~42% of positive work during walking, ankle exoskeletons have the potential to significantly improve the restricted mobility among elderly. In recent times, there has been increased push in this field of exoskeletons, however there is ample room for improvementin terms of both Design and Control. 
@@ -16,7 +16,7 @@ Additionally, another important design constraint for the ankle exoskeleton is t
 
 Overall, the ankle exoskeleton's design incorporates the design constraints based on previous research in the field, while adding new novelties - Compliancy and Series elastic-actuation.
 
-![Ankle Exoskeleton Designs](/assets/AnkleExo_Designs.png)
+![Ankle Exoskeleton Designs](/images/AnkleExo_Designs.png)
 
 
 ## Controller Design
@@ -26,10 +26,10 @@ In most available wearable devices, a three-level control system is often employ
 
 To overcome this limitation, I am developing a subject and task-agnostic controller that uses deep-learning model on wearable sensor data to predict biological torque which can be directly mapped to assistive torque. IMU, goniometer, and pressure insole data (19 features) from 3 subjects across five different tasks are used to train traditional deep-learning  models, including fully-connected neural networks (FCNN), long short-term memory (LSTM) networks, and temporal convolution neural (TCN) networks. The trained model in then evaluated on an unseen subject in training across 22 hold-out tasks (untrained tasks). This approach resulted in an average RMSE of 0.056 Nm/Kg in predicting biological torque for walking at average speed (~3-4% of peak torque value). 
 
-![RMSE across different tasks](/assets/AnkleExo_taskRMSE.png)
+![RMSE across different tasks](/images/AnkleExo_taskRMSE.png)
 <center>RMSE on 22 hold-out tasks for FCNN, LSTM and TCN Model</center>
 
-![Torque prediction for normal-walking](/assets/AnkleExo_walkRMSE.png)
+![Torque prediction for normal-walking](/images/AnkleExo_walkRMSE.png)
 <center>Biological torque profile for normal walking at average walking speed</center>
 
 To learn more on ML-Controller - [Read here](https://github.com/gupta-divy/Exo-controller-ML/blob/main/Project_report.pdf)

@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Divyansh Gupta"
-  avatar           : "/images/my_photo2.png"
+  avatar           : "my_photo2.png"
   bio              : "Roboticist harmonizing controls and design"
   location         : "Boston, MA"
   employer         : "Northeastern University"

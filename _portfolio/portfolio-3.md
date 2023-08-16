@@ -8,7 +8,7 @@ PredicKOA or Predicting Knee Osteoarthritis was my undergraduate thesis project 
 
 
 ## So, how it works?
-![PredicKOA working](/assets/predicKOA_process.jpg)
+![PredicKOA working](/images/predicKOA_process.jpg)
 
 ### Prototype
 Hardware setup included 7-modules for data-collection placed on lower-body(Lower-back, Thigh, Shank and Ankle) and each module used a NodeMCU(ESP8266), low-cost Wi-Fi enabled microcontroller and a MPU9250, 9DoF inertial sensors. UI interface developed using MATLAB was used to send triggers over Wi-Fi for data-collection and system was hardcoded to trigger with different delays to enable approximate synchronization of data from each module. The raw inertial data (Gyroscope, accelerometer and magnetometer) collected by these modules is transferred to the system over Wi-Fi which is pre-processed using Kalman Filter to generate and store orientation data for each IMU sensor or attached body part.
@@ -18,7 +18,7 @@ Gait features includes walking speed, stride time, and others like initial and f
 
 ### Predicting Knee Osteoarthritis (KOA)
 Estimated gait features and joint angles (kinematics) acts as bio-markers as they changes with progressing knee osteoarthritis. Some of these bio-markers includes decrease in range of motion for Knee Flexion and Hip Flexion, decrease in Peak Flexion angle at Heel Strike and Midswing, increased double support time, etc.  Support Vector Machine or other Neural-net classification models could be trained to predict KOA progress with accuracy.
-![Gait features affected by KOA](/assets/predicKOA_features.png)
+![Gait features affected by KOA](/images/predicKOA_features.png)
 
 
 ## Conclusion

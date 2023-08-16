@@ -1,6 +1,6 @@
 ---
 title: "Redesigned Crutches"
-excerpt: "To minimize the risk of crutch palsy and similar diseases, I redesigned crutches to offload the upperbody and transfer 60% of loading forces to pelvis region, thus reducing the intense pressure at one location.<br/><img src='/images/Crutch_Itr3.png'>"
+excerpt: "To minimize the risk of crutch palsy and similar diseases, I redesigned crutches to offload the upperbody and transfer 60% of loading forces to pelvis region, thus reducing the intense pressure at one location.<br/><img src='/images/Crutch_Itr3.png' width="140" height="220">"
 collection: portfolio
 ---
 Currently available crutches do not have the provision for weight distribution due to which long term use leads to intense pressure at one location depending on the type of crutch– Wrist, Elbow, or Underarms. This long-term intense pressure (from forces ~120% body weight) commonly leads to following medical conditions – Crutch Palsy, Wrist Injury, Artery Damage, etc. Lack of training among crutch users further increases the risk due to improper posture while walking with crutch. In India, approximately 13.5 million people are more prone to risk these conditions due to improper crutch handling. 
@@ -12,8 +12,8 @@ To minimize the risk of crutch palsy and similar diseases, I redesigned crutches
 ## How it works?
 In the crutch walking gait cycle, crutch stance phase follows the dynamics of a double inverted pendulum in which crutch acts as Link1 and our body acts as Link2. Leveraging this dynamics and providing a rigid support to the body at pelvis for swinging at the end of link2, enabled load transfer.
 
-![Crutch walking cycle](/assets/Crutch_cycle.png)
-![Crutch working](/assets/Crutch_working.png)
+![Crutch walking cycle](/images/Crutch_cycle.png)
+![Crutch working](/images/Crutch_working.png)
 
 ## Outcome
 We iterated with different configurations of crutches; 
@@ -23,7 +23,7 @@ We iterated with different configurations of crutches;
 
 This design was awarded second prize in Inter-IIT Tech Meet for the problem statement by [Biomedical Innovation Centre(BETIC)](https://www.betic.org/), IIT Bombay, India.
 
-![Crutch iterations](/assets/Crutch_prototypes.png)
+![Crutch iterations](/images/Crutch_prototypes.png)
 Left: Iteration1, Middle: Iteration2, Right: Iteration3
 
 {% include embed.html url="https://www.youtube.com/embed/isyfPDoThuw" %}
