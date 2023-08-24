@@ -1,5 +1,5 @@
 ---
-title: "Robot Sensing and Navigation"
+title: "Design and Control of Ankle Exoskeleton (In Progress)"
 excerpt: "I am working on making the ankle exoskeleton lighter and compliant to augment natural joint movement instead of restricting it. Along with improved design, I am working incorporating data-driven methods to provide assistance in natural ambulating environments."
 collection: portfolio
 ---
