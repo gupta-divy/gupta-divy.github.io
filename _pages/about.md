@@ -15,9 +15,11 @@ In the long run, I want to work on radical innovations that can have a direct po
 
 Current project
 ======
-I am designing an Ankle Exoskeleton along with a deep-learning based task-agnostic controller under the guidance of [Prof. Max Shepherd](https://coe.northeastern.edu/people/shepherd-maxwell/). In this project, I am leveraging composite flexures to design an ankle exoskeleton that does not restrict natural ankle joint movement while assisting with different ambulation tasks. In addition to the design, we are using a data-driven apporach to design a subject and task independent controller. This project has been an ideal learning opportunity for me where I explore novel controllers and mechanism while fulfilling my innate desire to make meaningful impact through research.
+I am designing an Ankle Exoskeleton ([Poster](/files/NERC_Poster.pdf): North east Robotics Conference) along with a deep-learning based task-agnostic controller under the guidance of [Prof. Max Shepherd](https://coe.northeastern.edu/people/shepherd-maxwell/). In this project, I am leveraging composite flexures to design an ankle exoskeleton that does not restrict natural ankle joint movement while assisting with different ambulation tasks. In addition to the design, we are using a data-driven apporach to design a subject and task independent controller. This project has been an ideal learning opportunity for me where I explore novel controllers and mechanism while fulfilling my innate desire to make meaningful impact through research.
 
 Apart from my interests in rehabilitation robotics, I am inspired to work on legged robots, utilizing non-linear control theory to achieve graceful and organic movements in these systems. As part of this pursuit, I am currently working on a personal project—a morphing bipedal robot that switches between rolling and bipedal motion as an efficient means of navigating the environment. I'm excited to share updates on this project soon! 
+
+
 
 Outside Academia
 ======

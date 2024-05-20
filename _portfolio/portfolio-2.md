@@ -3,7 +3,7 @@ title: "Chitrak-Quadruped"
 excerpt: "To improve efficiency of a legged robot, in particular quadruped we ideated with using self-locking actuators for each joint to achieve static stability."
 collection: portfolio
 ---
-<img align="left" width="240" height="100" src="/assets/Chitrak_Iteration_1.png" style="padding-right: 15px; padding-bottom: 15px;">
+<img align="left" width="240" height="100" src="/images/Chitrak_Iteration_1.png" style="padding-right: 15px; padding-bottom: 15px;">
 Quadrupeds and legged robots have gained significant attention in the field of robotics due to their ability to traverse complex terrains. This characteristic makes them particularly advantageous for various applications, including space exploration, caves/mine inspection, and construction sites. Although legged robots offer superior maneuverability over wheeled robots in these challenging environments, they typically exhibit lower efficiency when considering the same form factor. 
 
 
