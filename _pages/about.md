@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a robotics engineer who loves getting hands-on with hardware, but what really excites me is building controllers. It’s where I get to bring together my intuition for mechanical systems and the maths that makes it all click. It’s the kind of work that challenges and drives me professionally. 
+I’m a robotics engineer who loves getting hands-on with hardware, but what really excites me is building controllers. It’s where I get to combine my intuition for mechanical systems with underlying maths and physics. It’s the kind of work that keeps challenges and excites me.
 
-I have built a strong academic foundation through schooling - Masters in Robotics (GPA: 3.98, Dec 2024) from Northeastern University, Boston and Bachelors in Mechanical Engineering (GPA: 3.3, May 2020) from IIT Roorkee, India. To apply my academic learnings, I have worked in professional settings gaining ~2.5 years of work-experience through internships and a full-time role. Further, I am a self-learner, so to gain hands-on experience I have worked on 10+ long research projects spending more than 5000 hours, trying to learn and build.
+I’ve built a solid academic foundation with a Master’s in Robotics (GPA: 3.98, Dec 2024) from Northeastern University, Boston, and a Bachelor’s in Mechanical Engineering (GPA: 3.3, May 2020) from IIT Roorkee, India. Along the way, I’ve gained about 2.5 years of work-experience through internships and a full-time role. On top of that, I’m a self-learner, who has spent over 5,000 hours working on 10+ long research projects to learn and build things from ground up.
 
-Currenly, I am looking for full-time roles in Robotics, especially around controls where I can bring my proficient technical skills and a strong sense of ownership with work to contribute to your team. I am internally driven by my innate desire to make an impact and I'd love to join a workplace that aligns with this goal. 
+Right now, I’m looking for a full-time role in robotics, especially in controls, where I can bring my technical skills and strong sense of ownership to your team. I’m driven by the desire to make a real impact, and I’d love to work with a workplace that shares that same vision.
 
 Outside Academia
 ======
@@ -27,7 +27,7 @@ Work Highlights:
 
 [MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator - Design and Controls
 
-Glimpse of some of my work:
+Glimpse of Me n Robots:
 ======
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px;">
 
@@ -38,7 +38,7 @@ Glimpse of some of my work:
   
   <div>
     <img src="/images/Intro_MDT.jpg" alt="Hugo - MDT" style="width: 100%; height: auto;">
-    <p style="text-align: center;">Hugo - Medtronic</p>
+    <p style="text-align: center;">Hugo - Medtronic, Instrument Controller</p>
   </div>
   
   <div>
@@ -48,7 +48,7 @@ Glimpse of some of my work:
   
   <div>
     <img src="/images/Intro_Ottobot.jpg" alt="Image 4" style="width: 100%; height: auto;">
-    <p style="text-align: center;">OttonomyIO - Snow Testing</p>
+    <p style="text-align: center;">OttonomyIO - Built wheel attachment for snow</p>
   </div>
   
   <div>
@@ -63,12 +63,12 @@ Glimpse of some of my work:
   
   <div>
     <img src="/images/Intro_Chitrak.png" alt="Image 7" style="width: 100%; height: auto;">
-    <p style="text-align: center;">Quadruped and Butler robot (Inter-IIT Tech competition)</p>
+    <p style="text-align: center;">Butler robot and Quadruped (Inter-IIT Tech competition)</p>
   </div>
 
   <div>
     <img src="/images/Intro_ATC.png" alt="Image 8" style="width: 100%; height: auto;">
-    <p style="text-align: center;">Autonomous toilet cleaning robot (my first robot)</p>
+    <p style="text-align: center;">Autonomous toilet cleaning robot (my first robot, 2017)</p>
   </div>
 
 </div>
