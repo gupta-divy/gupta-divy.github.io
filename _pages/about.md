@@ -7,22 +7,56 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a final year masters student at Northeastern University with a passion for medical and bio-mimetic robotics. My research interests lies in the field of control system and mechanical design.  
+I'm a robotics engineer who loves getting hands-on with hardware, but what really excites me is building controllers. It’s where I get to bring together my intuition for mechanical systems and the maths that makes it all click. It’s the kind of work that challenges and drives me professionally. 
 
-Currently, I'm pursuing a master's degree in robotics at Northeastern University (GPA 3.96), with a thesis in the domain of Design and Control (Deep-Learning based control) of an Ankle Exoskeleton. 
+I have built a strong academic foundation through schooling - Masters in Robotics (GPA: 3.98, Dec 2024) from Northeastern University, Boston and Bachelors in Mechanical Engineering (GPA: 3.3, May 2020) from IIT Roorkee, India. To apply my academic learnings, I have worked in professional settings gaining ~2.5 years of work-experience through internships and a full-time role. Further, I am a self-learner, so to gain hands-on experience I have worked on 10+ long research projects spending more than 5000 hours, trying to learn and build.
 
-In the long run, I want to work on radical innovations that can have a direct positive impact to the environment or to its people. 
-
-Current project
-======
-I am designing an Ankle Exoskeleton ([Poster](/files/NERC_Poster.pdf): North east Robotics Conference) along with a deep-learning based task-agnostic controller under the guidance of [Prof. Max Shepherd](https://coe.northeastern.edu/people/shepherd-maxwell/). In this project, I am leveraging composite flexures to design an ankle exoskeleton that does not restrict natural ankle joint movement while assisting with different ambulation tasks. In addition to the design, we are using a data-driven apporach to design a subject and task independent controller. This project has been an ideal learning opportunity for me where I explore novel controllers and mechanism while fulfilling my innate desire to make meaningful impact through research.
-
-Apart from my interests in rehabilitation robotics, I am inspired to work on legged robots, utilizing non-linear control theory to achieve graceful and organic movements in these systems. As part of this pursuit, I am currently working on a personal project—a morphing bipedal robot that switches between rolling and bipedal motion as an efficient means of navigating the environment. I'm excited to share updates on this project soon! 
-
-
+Currenly, I am looking for full-time roles in Robotics, especially around controls where I can bring my proficient technical skills and a strong sense of ownership with work to contribute to your team. I am internally driven by my innate desire to make an impact and I'd love to join a workplace that aligns with this goal. 
 
 Outside Academia
 ======
-I like to stay active and learn new things. I'm an avid swimmer, bouldering enthusiast, and loves poker. Apart from that, I'm a huge fan of reading books and trying out new restaurants. After all, life is all about balance! 
+I like to stay active, try new things that scares me and explore. I recently learned sailing (at Charles River, Boston), like every other engineer I do bouldering and sometimes reading mostly self-help - "Start with Why by Simon Sinek" and "The Alchemist by Paulo Coelho" are some of my favorites. Also, in summer 2024, I did my first solo-trip traveling Thailand, Italy, Switzerland (did Via-Ferrata) and Amsterdam, currently planning for more!
 
-If you're interested in the exciting world of robotics or just want to chat about anything in common, feel free to reach out! I'd love to connect with you and see where our shared passion takes us.
+I'd love to chat about anything in common whether love for robotics or outside academia, feel free to reach out via LinkedIn or email!
+
+Work Highlights:
+======
+[Poster](/files/NERC_Poster.pdf): North East Robotics Conference (NERC-2023) poster presentation at Yale University
+[Northeastern University Global News Coverage](https://news.northeastern.edu/2024/11/23/exoskeleton-research-mobility/) of my lab work highlighting my Ankle Exoskeleton project
+
+[MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator - Design and Controls
+
+### Few things I have worked on: 
+======
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px;">
+
+  <div>
+    <img src="/images/Intro_Exo.jpg" alt="Exo" style="width: 100%; height: auto;">
+    <p style="text-align: center;">Ankle Exo with SEA</p>
+  </div>
+  
+  <div>
+    <img src="/images/Intro_MDT.jpg" alt="Hugo - MDT" style="width: 100%; height: auto;">
+    <p style="text-align: center;">Hugo-Medtronic</p>
+  </div>
+  
+  <div>
+    <img src="/images/Intro_NERC.jpg" alt="Image 3" style="width: 100%; height: auto;">
+    <p style="text-align: center;">NERC at Yale University</p>
+  </div>
+  
+  <div>
+    <img src="/images/Intro_Ottobot.jpg" alt="Image 4" style="width: 100%; height: auto;">
+    <p style="text-align: center;">OttonomyIO Snow Testing</p>
+  </div>
+  
+  <div>
+    <img src="/images/Intro_Printer.jpg" alt="Image 5" style="width: 100%; height: auto;">
+    <p style="text-align: center;">PrusaMK4 Assembly</p>
+  </div>
+  
+  <div>
+    <img src="/images/Intro_roboArm" alt="Image 6" style="width: 100%; height: auto;">
+    <p style="text-align: center;">RoboticArm Experiment</p>
+  </div>
+</div>
