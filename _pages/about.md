@@ -22,11 +22,12 @@ I'd love to chat about anything in common whether love for robotics or outside a
 Work Highlights:
 ======
 [Poster](/files/NERC_Poster.pdf): North East Robotics Conference (NERC-2023) poster presentation at Yale University
+
 [Northeastern University Global News Coverage](https://news.northeastern.edu/2024/11/23/exoskeleton-research-mobility/) of my lab work highlighting my Ankle Exoskeleton project
 
 [MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator - Design and Controls
 
-### Few things I have worked on: 
+Glimpse of some of my work:
 ======
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px;">
 
@@ -37,26 +38,37 @@ Work Highlights:
   
   <div>
     <img src="/images/Intro_MDT.jpg" alt="Hugo - MDT" style="width: 100%; height: auto;">
-    <p style="text-align: center;">Hugo-Medtronic</p>
+    <p style="text-align: center;">Hugo - Medtronic</p>
   </div>
   
   <div>
     <img src="/images/Intro_NERC.jpg" alt="Image 3" style="width: 100%; height: auto;">
-    <p style="text-align: center;">NERC at Yale University</p>
+    <p style="text-align: center;">NERC Conference at Yale University</p>
   </div>
   
   <div>
     <img src="/images/Intro_Ottobot.jpg" alt="Image 4" style="width: 100%; height: auto;">
-    <p style="text-align: center;">OttonomyIO Snow Testing</p>
+    <p style="text-align: center;">OttonomyIO - Snow Testing</p>
   </div>
   
   <div>
-    <img src="/images/Intro_Printer.jpg" alt="Image 5" style="width: 100%; height: auto;">
-    <p style="text-align: center;">PrusaMK4 Assembly</p>
+    <img src="/images/Intro_Printer.JPG" alt="Image 5" style="width: 100%; height: auto;">
+    <p style="text-align: center;">Assembling PrusaMK4</p>
   </div>
   
   <div>
-    <img src="/images/Intro_roboArm" alt="Image 6" style="width: 100%; height: auto;">
-    <p style="text-align: center;">RoboticArm Experiment</p>
+    <img src="/images/Intro_roboArm.jpg" alt="Image 6" style="width: 100%; height: auto;">
+    <p style="text-align: center;">Rehabilitation Experiment</p>
   </div>
+  
+  <div>
+    <img src="/images/Intro_Chitrak.png" alt="Image 7" style="width: 100%; height: auto;">
+    <p style="text-align: center;">Quadruped and Butler robot (Inter-IIT Tech competition)</p>
+  </div>
+
+  <div>
+    <img src="/images/Intro_ATC.png" alt="Image 8" style="width: 100%; height: auto;">
+    <p style="text-align: center;">Autonomous toilet cleaning robot (my first robot)</p>
+  </div>
+
 </div>
