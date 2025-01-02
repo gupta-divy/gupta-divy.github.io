@@ -5,13 +5,9 @@ permalink: /posts/blog-post-2/
 tags:
   - Controls, Modeling, Robot
 ---
+Screw theory is a mathematical framework to analyze and describe rigid body motion in 3D space. It elegantly connects the combined linear and rotational motion observed in a physical screw to rigid body motion. In addition, it gives better physical understanding of singularities compared to DH parametrization where the maths do not perfectly translate to geometric interpretation. In Screw theory, in case of singularities Screw Axis aligns or coincides with each other thus loosing a DOF. 
 
-# Screw Theory Notes
 
-## Overview
-Screw theory is a mathematical framework to analyze and describe rigid body motion in 3D space. It elegantly combines linear and rotational motion observed in a physical screw to represent rigid body motion.
-
----
 
 ## Key Concepts
 
