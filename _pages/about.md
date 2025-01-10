@@ -7,11 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I’m a robotics engineer who loves getting hands-on with hardware, but what really excites me is building controllers. It’s where I get to combine my intuition for mechanical systems with underlying maths and physics. It’s the kind of work that keeps challenges and excites me.
+I’m a robotics engineer who loves hands-on work with hardware, but what really excites me is working on middleware layer - interfacing sensors and actuators, programming controllers, reviewing literature and implementing novel ideas to improve hardware performance. It’s where I get to combine my intuition for mechanical systems with underlying maths and physics. It’s the kind of work that challenges and excites me.
 
 I’ve built a solid academic foundation with a Master’s in Robotics (GPA: 3.98, Dec 2024) from Northeastern University, Boston, and a Bachelor’s in Mechanical Engineering (GPA: 3.3, May 2020) from IIT Roorkee, India. Along the way, I’ve gained about 2.5 years of work-experience through internships and a full-time role. On top of that, I’m a self-learner, who has spent over 5,000 hours working on 10+ long research projects to learn and build things from ground up.
 
-Right now, I’m looking for a full-time role in robotics, especially in controls, where I can bring my technical skills and strong sense of ownership to your team. I’m driven by the desire to make a real impact, and I’d love to work with a workplace that shares that same vision.
+Right now, I’m looking for a full-time role in robotics, preferrably in mechatronics, controls or HW-SW integration, where I can bring my technical skills and strong sense of ownership to your team. I’m driven by the desire to make a real impact, and I’d love to work with a workplace that shares that same vision.
 
 Outside Academia
 ======
