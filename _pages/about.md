@@ -23,9 +23,9 @@ Work Highlights:
 ======
 [Poster](/files/NERC_Poster.pdf): North East Robotics Conference (NERC-2023) poster presentation at Yale University
 
-[Northeastern University Global News Coverage](https://news.northeastern.edu/2024/11/23/exoskeleton-research-mobility/) of my lab work highlighting my Ankle Exoskeleton project
+[Northeastern University Global](https://news.northeastern.edu/2024/11/23/exoskeleton-research-mobility/) News coverage of my lab work highlighting my Ankle Exoskeleton project
 
-[MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator - Design and Controls
+[MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator - Design and Controls (Patent Pending: US Patent 18/911616)
 
 Glimpse of Me n Robots:
 ======
