@@ -38,7 +38,7 @@ Glimpse of Me n Robots:
   
   <div>
     <img src="/images/Intro_MDT.jpg" alt="Hugo - MDT" style="width: 100%; height: auto;">
-    <p style="text-align: center;">Hugo - Medtronic, Instrument Controller</p>
+    <p style="text-align: center;">Hugo - Medtronic</p>
   </div>
   
   <div>
@@ -48,7 +48,7 @@ Glimpse of Me n Robots:
   
   <div>
     <img src="/images/Intro_Ottobot.jpg" alt="Image 4" style="width: 100%; height: auto;">
-    <p style="text-align: center;">OttonomyIO - Built wheel attachment for snow</p>
+    <p style="text-align: center;">OttonomyIO - Autonomous Delivery Robot (Snow Testing)</p>
   </div>
   
   <div>
