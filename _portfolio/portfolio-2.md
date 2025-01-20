@@ -9,7 +9,7 @@ Deteriorating muscles among elderly leads to reduced mobility and independance. 
 In this project, I worked on making the ankle exoskeleton lighter and add passive compliance to allow natural joint movement instead of restricting it. Further, novel [actuator mechanism](https://gupta-divy.github.io/portfolio/portfolio-1/) is used to achieve smooth transition across different gait phases - swing and stance. Along with improved design, I tested conventional heirarichal state-machine control design and also, data-driven approach to provide assistance outside lab settings irrespective of task performed.
 
 ## Design and Prototype
-<img align="left" width="200" height="250" src="/images/p2_ankleExo_forces.jpg" style="padding-right: 15px; padding-bottom: 15px;">
+<img align="left" width="250" height="300" src="/images/p2_ankleExo_forces.jpg" style="padding-right: 15px; padding-bottom: 15px;">
 Design of the ankle-exoskeleton incorporates several key-features aimed at providing optimal assistance and adaptability to different users. 
 - Unidirectional series elastic actuation system, capable of delivering an assistive platarflexion torque of upto 50Nm (~40% of ankle joint torque among healthy adults) allowing for unimpeded backdrivability
 - Passive material compliancy to allow inversion-eversion and rotation of foot about ankle joint, which is absent in most available ankle-exoskeletons 
@@ -28,17 +28,20 @@ Traditionally, control architecture in exoskeletons follow a heirarichal state m
 In the following section, traditional control method is discussed focused only on walking and the data-driven approach is discussed in another article, [here](/_portfolio/portfolio-3.md). 
 
 ### High-Level Controller: Time based-gait phase estimator 
-<img align="left" width="100" height="150" src="/images/p1_torque_conversion.png" style="padding-right: 15px; padding-bottom: 15px;">
 The system employs an Inertial Measurement Unit (IMU) to identify heel strikes during walking, detected as peaks in the gyroscope signal corresponding to rapid changes in angular velocity. Following the detection of each heel strike, a time-based estimator calculates the stride duration by measuring the time interval between two consecutive heel strikes. The average of the stride durations over the last three steps is then used to predict the timing of the upcoming gait phases.
 
-\[
-GaitPhase(\%) = \frac{t-t_{LastHeelStrike}}{T}
-\]
-here, $T$ is average time period of last three strides
+The Gait Phase in percentage is calculated using the following equation:
+
+$$
+GaitPhase(\%) = \frac{t - t_{\text{LastHeelStrike}}}{T}
+$$
+
+where \(T\) is the average time period of the last three strides.
 
 ### Mid-Level Controllers:
 <img src="/images/p2_fourPointSpline.jpg" alt="Four Point Spline" style="display: block; margin: 15px auto; width: 60%; height: auto;">
-<center>Stance Controller: Four Point Spline [ref](https://www.science.org/doi/10.1126/science.aal5054) </center> 
+
+<center>Stance Controller: Four Point Spline </center> 
 
 **Stance Controller (Open-Loop Torque Control)**
 During the stance phase, which spans 0–62\% of the gait cycle, the controller operates in an open-loop torque control mode using predefined torque spline curves that mimic the biological torque profile of the ankle joint. The torque curve is defined by a 4-point spline that governs four key parameters of the torque profile: rise time, peak time, peak assistive torque, and fall time. Based on insights from the literature, these parameters are tuned and optimized to maximize reductions in metabolic cost.

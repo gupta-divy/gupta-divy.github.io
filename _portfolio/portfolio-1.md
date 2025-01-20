@@ -4,17 +4,15 @@ excerpt: "A novel series elastic actuator design with a cable-driven system that
 collection: portfolio
 ---
 
-<img align="left" width="200" height="250" src="/images/p1_actuator_schematic.png" style="padding-right: 15px; padding-bottom: 5px;">
+<img align="left" width="180" height="225" src="/images/p1_actuator_schematic.png" style="padding-right: 15px; padding-bottom: 5px;">
 
 Unidirectional cable-drive actuators are excellent for applications requiring high force with minimal resistance to back-driving. However, they face challenges when it comes to precise force control, especially in low-force regions.
 
 This happens because high-torque motors struggle with rotor inertia, which reduces their sensitivity to small force changes. For wearable robotics, there’s also an added issue: sudden jerks when transitioning between Slack and Taut cable states. \
-\
 
 
 
 ## A Promising Solution: Series Elastic Actuator (SEA)
-
 One promising solution is a **Series Elastic Actuator (SEA)**. By adding a spring element in series with the transmission, we can dampen the jerks and simplify low-force tracking by converting it into a position control problem. 
 
 However, traditional SEAs often fall short due to the reliance on linear springs, which create a trade-off:
@@ -22,8 +20,8 @@ However, traditional SEAs often fall short due to the reliance on linear springs
 - A stiff spring allows high-force applications but sacrifices low-force sensitivity.
 
 <div style="display: flex; justify-content: space-around; align-items: center; margin: 15px 0;">
-    <img src="/images/p1_springStiffness.png" alt="Spring Stiffness" style="width: 45%; height: auto;">
-    <img src="/images/p1_actuator_design.png" alt="Actuator Design" style="width: 45%; height: auto;">
+    <img src="/images/p1_springStiffness.png" alt="Spring Stiffness" style="width: 40%; height: auto;">
+    <img src="/images/p1_actuator_design.png" alt="Actuator Design" style="width: 50%; height: auto;">
 </div>
 
 This project solves these issues with a **non-linear SEA** using a **CAM-based spring mechanism**. The non-linear spring allows mechanical programming of the stiffness, making it adaptable for different needs. 
@@ -54,12 +52,12 @@ The actuator combines a **CAM-based spring mechanism** with a kinematic pulley a
 
 ## Hardware Used
 
-<img src="/images/p1_hardwareUsed.jpg" alt="Hardware Used" style="display: block; margin: 15px auto; width: 60%; height: auto;">
+<img src="/images/p1_hardwareUsed.jpg" alt="Hardware Used" style="display: block; margin: 15px auto; width: 80%; height: auto;">
 
-**Motor**: CubeMars AKE60-8
-**Motor Controller**: Odrive Pro, Transitioning to Moteus for its open-source firmware
-**Compute**: Jetson Nano Orin, supporting ML-based controllers for exoskeleton application
-**Sensors**: Two Encoders, MA600,  one for the CAM Angle and another for the motor shaft and an IMU BNO085 for application with exoskeleton (Currently adding IMU support to Moteus firmware).
+- **Motor**: CubeMars AKE60-8
+- **Motor Controller**: Odrive Pro, Transitioning to Moteus for its open-source firmware 
+- **Compute**: Jetson Nano Orin, supporting ML-based controllers for exoskeleton application
+- **Sensors**: Two Encoders, MA600,  one for the CAM Angle and another for the motor shaft and an IMU BNO085 for application with exoskeleton (Currently adding IMU support to Moteus firmware).
 
 
 ## Controller Design
