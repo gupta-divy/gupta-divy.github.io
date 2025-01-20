@@ -1,16 +1,18 @@
 ---
 title: "Data Driven Control Design- Deep Learning based Task-Agnostic Controller"
-excerpt: ""
+excerpt: "Developed a subject and task-agnostic controller using deep learning model utilizing wearable sensor data, enabling use of exoskeletons outside lab settings"
 collection: portfolio
 ---
 <img align="left" width="200" height="250" src="/images/Intro_Exo.jpg" style="padding-right: 15px; padding-bottom: 15px;">
 Current lower-limb wearable devices, like exoskeletons and prosthetics, are often restricted to lab settings due to their inability to perform effectively in natural environments. To enable their use in real-world scenarios, a control policy is needed that can handle multimodal ambulation, such as varying walking speeds, running, inclined walks, jumping, and sit-to-stand movements.
 
-As described in the [Ankle Exo Project](/_portfolio/portfolio-2.md), most wearable devices use a three-level control system: a high-level controller that classifies ambulation modes, a mid-level controller that generates a reference trajectory for the classified mode, and a low-level controller that tracks this trajectory. While this approach works well for continuous, steady-state ambulation modes, it struggles when the ambulation modes in real-world settings are dynamic and cannot be easily discretized.
+As described in the [Ankle Exo Project](https://gupta-divy.github.io/portfolio/portfolio-2/), most wearable devices use a three-level control system: a high-level controller that classifies ambulation modes, a mid-level controller that generates a reference trajectory for the classified mode, and a low-level controller that tracks this trajectory. While this approach works well for continuous, steady-state ambulation modes, it struggles when the ambulation modes in real-world settings are dynamic and cannot be easily discretized.
 
 To overcome this limitation, I developed a subject- and task-agnostic controller using a deep learning model that predicts biological torque from time-history wearable sensor data, which is directly mapped to assistive torque.
 
-![Sensor Configuration](/images/p3_sensorConfig.jpg)
+<img src="/images/p3_sensorConfig.jpg" alt="Sensor Config" style="display: block; margin: 15px auto; width: 75%; height: auto;">
+<center>Sensor Configuration</center>
+
 
 ## Dataset
 The study used a diverse dataset consisting of wearable sensor data from five participants, covering 27 different ambulation tasks and variations of certain modes. Each task included a minimum of 4,000 time steps, representing an average of 20 seconds of data, with 80 features per sample from sensors like IMUs, goniometers, EMG sensors, and pressure insoles. This comprehensive dataset allowed for a thorough evaluation of data-driven techniques for estimating torque in ankle exoskeletons.
@@ -18,7 +20,9 @@ The study used a diverse dataset consisting of wearable sensor data from five pa
 ### Training Dataset
 The objective was to create a generalized training model capable of working across different ankle exoskeleton devices and sensor configurations. To ensure repeatability, I selected tasks that could be consistently performed. I used a forward selection technique with an FCNN model and refined the selection based on biomechanical understanding and the repeatability of tasks within the experimental setup.
 
-![Task Selection](/images/p3_AnkleExo_taskRMSE.png)
+<img src="/images/p3_taskSelection.jpg" alt="Task Selection" style="display: block; margin: 15px auto; width: 80%; height: auto;">
+<center>Task Selection</center>
+
 
 ### Training Features
 I tested different feature subsets, ranging from all 80 sensors to a limited set (2 IMUs, 2 goniometers, 14 features). My hypothesis was that only a few key features, such as pressure insoles data, ankle angle, shank accelerometer data, and EMG signals from soleus and gastrocnemius muscles, would contribute directly to torque estimation. To validate this, I trained a regression model, analyzed feature f-values, and iteratively added and removed features to assess the FCNN model’s performance.
