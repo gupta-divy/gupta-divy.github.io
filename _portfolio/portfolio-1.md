@@ -3,14 +3,9 @@ title: "Design and Control of Non-Linear Series Elastic Actuator (SEA) - Cable D
 excerpt: "A novel series elastic actuator design with a cable-driven system that achieves precise force control over a wide range [1–200N] through a mechanically programmable stiffness using CAM"
 collection: portfolio
 ---
-
-<img align="left" width="180" height="225" src="/images/p1_actuator_schematic.png" style="padding-right: 15px; padding-bottom: 5px;">
-
 Unidirectional cable-drive actuators are excellent for applications requiring high force with minimal resistance to back-driving. However, they face challenges when it comes to precise force control, especially in low-force regions.
 
-This happens because high-torque motors struggle with rotor inertia, which reduces their sensitivity to small force changes. For wearable robotics, there’s also an added issue: sudden jerks when transitioning between Slack and Taut cable states. \
-
-
+This happens because high-torque motors struggle with rotor inertia, which reduces their sensitivity to small force changes. For wearable robotics, there’s also an added issue: sudden jerks when transitioning between Slack and Taut cable states. 
 
 ## A Promising Solution: Series Elastic Actuator (SEA)
 One promising solution is a **Series Elastic Actuator (SEA)**. By adding a spring element in series with the transmission, we can dampen the jerks and simplify low-force tracking by converting it into a position control problem. 
