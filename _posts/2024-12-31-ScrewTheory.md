@@ -24,13 +24,13 @@ $$
   0 & 0
 \end{bmatrix}
 $$
-here, $[\omega]$: Skew-symmetric matrix of $$\omega$$
+here, $[\omega]$: Skew-symmetric  matrix of $$\omega$$
 
 ### 2. **Screw Axis (Plücker Line)**
 Every rigid body can be realized by a screw motion
 
 ## Resources
-Youtube: [Advanced Robotics Control](https://youtu.be/-4pH6BZZKcQ?si=xAhERAdXGIvjHLOL)
-"Modern Robotics" by Lynch and Park (highly recommended for detailed screw theory coverage).
+- Youtube: [Advanced Robotics Control](https://youtu.be/-4pH6BZZKcQ?si=xAhERAdXGIvjHLOL)
+- "Modern Robotics" by Lynch and Park (highly recommended for detailed screw theory coverage).
 
 ---

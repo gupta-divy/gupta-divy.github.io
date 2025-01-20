@@ -1,25 +1,48 @@
 ---
-title: "PredicKOA - Low-cost inertial motion capture system"
-excerpt: "Built a device / methodology to predict the onset and track the progress of Knee Osteoarthritis in elderly using wireless low-cost inertial sensors."
+title: "Data Driven Control Design- Deep Learning based Task-Agnostic Controller"
+excerpt: ""
 collection: portfolio
 ---
-PredicKOA or Predicting Knee Osteoarthritis was my undergraduate thesis project at IIT Roorkee. The goal of the project was to build a device / methodology to predict the onset and track the progress of Knee Osteoarthritis in elderly using wireless low-cost inertial sensors. This project was inspired by lack of Motion capture technology and the skillset required to operate them in budget contrained settings with poor healthcare infrastructure- rural areas, developing countries, etc. Additionally, it can help in better identifying new bio-markers for diseases affecting the muskuloskeletal system with motion data from users in their natural work / home setting. Furthermore, application of this could be extended to track progress of other physio / neurological diseases affecting mobility especially in elderly.
+<img align="left" width="200" height="250" src="/images/Intro_Exo.jpg" style="padding-right: 15px; padding-bottom: 15px;">
+Current lower-limb wearable devices, like exoskeletons and prosthetics, are often restricted to lab settings due to their inability to perform effectively in natural environments. To enable their use in real-world scenarios, a control policy is needed that can handle multimodal ambulation, such as varying walking speeds, running, inclined walks, jumping, and sit-to-stand movements.
 
+As described in the [Ankle Exo Project](/_portfolio/portfolio-2.md), most wearable devices use a three-level control system: a high-level controller that classifies ambulation modes, a mid-level controller that generates a reference trajectory for the classified mode, and a low-level controller that tracks this trajectory. While this approach works well for continuous, steady-state ambulation modes, it struggles when the ambulation modes in real-world settings are dynamic and cannot be easily discretized.
 
+To overcome this limitation, I developed a subject- and task-agnostic controller using a deep learning model that predicts biological torque from time-history wearable sensor data, which is directly mapped to assistive torque.
 
-## So, how it works?
-![PredicKOA working](/images/predicKOA_process.jpg)
+![Sensor Configuration](/images/p3_sensorConfig.jpg)
 
-### Prototype
-Hardware setup included 7-modules for data-collection placed on lower-body(Lower-back, Thigh, Shank and Ankle) and each module used a NodeMCU(ESP8266), low-cost Wi-Fi enabled microcontroller and a MPU9250, 9DoF inertial sensors. UI interface developed using MATLAB was used to send triggers over Wi-Fi for data-collection and system was hardcoded to trigger with different delays to enable approximate synchronization of data from each module. The raw inertial data (Gyroscope, accelerometer and magnetometer) collected by these modules is transferred to the system over Wi-Fi which is pre-processed using Kalman Filter to generate and store orientation data for each IMU sensor or attached body part.
+## Dataset
+The study used a diverse dataset consisting of wearable sensor data from five participants, covering 27 different ambulation tasks and variations of certain modes. Each task included a minimum of 4,000 time steps, representing an average of 20 seconds of data, with 80 features per sample from sensors like IMUs, goniometers, EMG sensors, and pressure insoles. This comprehensive dataset allowed for a thorough evaluation of data-driven techniques for estimating torque in ankle exoskeletons.
 
-### Estimating Gait features and Joint Kinematics:
-Gait features includes walking speed, stride time, and others like initial and final foot contact. These features are usually affected by neuro-muskuloskeletal diseases; Eg. Imagine yourself walking when you are mentally exhausted vs when you are energized, this is the effect of neurological factors on your gait pattern. There are multiple ways to estimate these parameters and for this project I used vertical acceleration data from IMU placed at lower-back with [GaitPy algorithm](https://pypi.org/project/gaitpy/) by Matthew Czech to extract these features. Further, joint angles were calculated using [OpenSense (OpenSim)](https://simtk.org/projects/opensense) which takes in orientation data of IMUs and estimate joint kinematics.
+### Training Dataset
+The objective was to create a generalized training model capable of working across different ankle exoskeleton devices and sensor configurations. To ensure repeatability, I selected tasks that could be consistently performed. I used a forward selection technique with an FCNN model and refined the selection based on biomechanical understanding and the repeatability of tasks within the experimental setup.
 
-### Predicting Knee Osteoarthritis (KOA)
-Estimated gait features and joint angles (kinematics) acts as bio-markers as they changes with progressing knee osteoarthritis. Some of these bio-markers includes decrease in range of motion for Knee Flexion and Hip Flexion, decrease in Peak Flexion angle at Heel Strike and Midswing, increased double support time, etc.  Support Vector Machine or other Neural-net classification models could be trained to predict KOA progress with accuracy.
-![Gait features affected by KOA](/images/predicKOA_features.png)
+![Task Selection](/images/p3_AnkleExo_taskRMSE.png)
 
+### Training Features
+I tested different feature subsets, ranging from all 80 sensors to a limited set (2 IMUs, 2 goniometers, 14 features). My hypothesis was that only a few key features, such as pressure insoles data, ankle angle, shank accelerometer data, and EMG signals from soleus and gastrocnemius muscles, would contribute directly to torque estimation. To validate this, I trained a regression model, analyzed feature f-values, and iteratively added and removed features to assess the FCNN model’s performance.
 
-## Conclusion
-Project was not concluded and was hindered by COVID-19 (2020, received A+ for progress). However, this project gave me a deeper understanding on science of bipedal walking and other biomechanical concepts.
+While EMG sensors showed high relevance, they were prone to noise due to sweat, hair, and skin adhesion, making them less suitable for natural settings. This emphasized the importance of thoughtful feature selection and integrating domain knowledge to develop more effective machine learning models.
+
+## Training
+Three distinct machine learning models were used to estimate ankle joint torque, each implemented with the deep learning framework TensorFlow:
+- **FCNN:** Fully Connected Neural Network
+- **LSTM:** Long Short-Term Memory
+- **TCN:** Temporal Convolutional Network
+
+The hyperparameters and overall architecture for each model were chosen through experimentation. Each model was compiled with the Adam optimizer and the MSE loss function. A callback function was added during training to save the best-performing model based on the validation dataset. More details about the models can be found in this [report](https://github.com/gupta-divy/Exo-controller-ML/blob/main/Project_report.pdf).
+
+## Results
+The TCN model performed the best, achieving the lowest error with an average RMSE of 0.093 N.m/Kg. The LSTM model had a slightly higher RMSE at 0.097, while the FCNN model had the highest at 0.098. On average, we achieved an RMSE of around 8% across all tasks. However, for tasks more relevant to ankle exoskeletons, the RMSE improved to around 5%.
+
+In terms of computational efficiency, the TCN model was the fastest, with an average prediction time of 6µs. The FCNN model took about 60µs, and the LSTM model required 300µs due to the need for sequential data processing.
+
+![RMSE across different tasks](/images/p3_AnkleExo_taskRMSE.png)
+<center>RMSE on 22 hold-out tasks for FCNN, LSTM, and TCN Models</center>
+
+![Torque prediction for normal-walking](/images/p3_AnkleExo_walkRMSE.png)
+<center>Biological torque profile for normal walking at average walking speed</center>
+
+## Other work:
+I fine-tuned the model hyperparameters using Bayesian Optimization from the HyperOpt Library, achieving a 25% reduction in RMSE. Additionally, I removed the pressure insoles data from the feature set to make the model more generalized as the pressure insoles sensors were found to be prone to noise and permanent deformation over time. This reduction with number of features, resuled in an increased RMSE of around 10% but maintained the generalizability which is the key for its application.
