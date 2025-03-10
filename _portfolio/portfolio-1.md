@@ -3,6 +3,11 @@ title: "Design and Control of Non-Linear Series Elastic Actuator (SEA) - Cable D
 excerpt: "A novel series elastic actuator design with a cable-driven system that achieves precise force control over a wide range [1–200N] through a mechanically programmable stiffness using CAM"
 collection: portfolio
 ---
+External Links: 
+- [Published MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator: Design and Controls 
+- Unidirectional Actuator with Customizable Series Elasticity, Patent Pending: US Patent 18/911616 
+- [Prototype Video](https://youtube.com/shorts/cZUWyU2s_zA?feature=share)
+
 Unidirectional cable-drive actuators are excellent for applications requiring high force with minimal resistance to back-driving. However, they face challenges when it comes to precise force control, especially in low-force regions.
 
 This happens because high-torque motors struggle with rotor inertia, which reduces their sensitivity to small force changes. For wearable robotics, there’s also an added issue: sudden jerks when transitioning between Slack and Taut cable states. 
@@ -19,7 +24,7 @@ However, traditional SEAs often fall short due to the reliance on linear springs
     <img src="/images/p1_actuator_design.png" alt="Actuator Design" style="width: 50%; height: auto;">
 </div>
 
-This project solves these issues with a **non-linear SEA** using a **CAM-based spring mechanism**. The non-linear spring allows mechanical programming of the stiffness, making it adaptable for different needs. 
+This project solves these issues with a **non-linear Differential Elastic Actuator** [(refer)](https://ieeexplore.ieee.org/document/4543763) using a **CAM-based spring mechanism**. The CAM enables mechanical programming of the stiffness, making it adaptable for different needs. 
 
 At low forces, the actuator acts like a soft spring, maintaining tension to avoid slack. As forces increase, the stiffness gradually ramps up, eventually disengaging the spring to behave like a traditional cable-driven system. 
 
@@ -75,5 +80,3 @@ This hybrid strategy ensures precise force tracking across the actuator's entire
 ---
 
 This innovative SEA design bridges the gap between low-force sensitivity and high-force capability, making it a versatile solution for applications ranging from wearable robotics to industrial grippers. 
-
-[Published MS Thesis](https://www.proquest.com/docview/3147874129) Non-linear series elastic cable drive actuator - Design and Controls (Patent Pending: US Patent 18/911616)
