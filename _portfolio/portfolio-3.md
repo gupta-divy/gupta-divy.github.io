@@ -1,6 +1,6 @@
 ---
 title: "Data Driven Control Design- Deep Learning based Task-Agnostic Controller"
-excerpt: "Developed a subject and task-agnostic controller using deep learning model utilizing wearable sensor data, enabling use of exoskeletons outside lab settings"
+excerpt: "Developed a subject and task-agnostic controller using deep learning model utilizing wearable sensor data, enabling use of exoskeletons outside lab settings. Skills: Python, PyTorch, TensorFlow, Machine Learning for Time-Series Data (LSTM, TCN, FCNN), Bayesian Optimization, Data Processing and Analysis"
 collection: portfolio
 ---
 <img align="left" width="200" height="250" src="/images/Intro_Exo.jpg" style="padding-right: 15px; padding-bottom: 15px;">

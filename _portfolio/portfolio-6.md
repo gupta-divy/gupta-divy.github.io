@@ -1,6 +1,6 @@
 ---
 title: "Robot Sensing and Navigation"
-excerpt: "We have examined the sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, GPS, IMUs, and laser scanners."
+excerpt: "We have examined the sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, GPS, IMUs, and laser scanners. Skills: ROS, Python, Matlab, Sensor Noise Analysis - GPS, IMU and LiDAR, Signal Processing, Computer Vision, Camera calibration and Image Processing, SLAM"
 collection: portfolio
 ---
 <img align="left" width="240" height="120" src="/images/p6_RSN_DataCollection.png" style="padding-right: 15px; padding-bottom: 15px;">

@@ -1,6 +1,6 @@
 ---
 title: "Design and Control of Ankle Exoskeleton"
-excerpt: "Built an Ankle Exoskeleton which is lighter, have passive compliance to allow natural joint movement and features novel actuator for near zero-impedance for backdrivability"
+excerpt: "Built an Ankle Exoskeleton which is lighter, have passive compliance to allow natural joint movement and features novel actuator for near zero-impedance for backdrivability. Skills: CAD, Python, Object-Oriented Programming, State-estimation, Kalman Filter, Finite State Machines, CNC-Machining, Composites, 3D Printing"
 collection: portfolio
 ---
 <img align="left" width="200" height="250" src="/images/Intro_Exo.jpg" style="padding-right: 15px; padding-bottom: 15px;">

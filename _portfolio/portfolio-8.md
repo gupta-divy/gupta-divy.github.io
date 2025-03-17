@@ -1,6 +1,6 @@
 ---
 title: "Redesigned Crutches"
-excerpt: "To minimize the risk of crutch palsy and similar diseases, I redesigned crutches to offload the upperbody and transfer 60% of loading forces to pelvis region, thus reducing the intense pressure at one location."
+excerpt: "To minimize the risk of crutch palsy and similar diseases, I redesigned crutches to offload the upperbody and transfer 60% of loading forces to pelvis region, thus reducing the intense pressure at one location. Skills: CAD, Matlab, Simulink, FEA, Biomechanics, Fabrication and Assembly, 3D Printing"
 collection: portfolio
 ---
 <img align="left" width="140" height="220" src="/images/p8_Crutch_Itr3.png" style="padding-right: 15px; padding-bottom: 15px;">

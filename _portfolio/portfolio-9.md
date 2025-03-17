@@ -1,6 +1,6 @@
 ---
 title: "PredicKOA - Low-cost inertial motion capture system"
-excerpt: "Built a device / methodology to predict the onset and track the progress of Knee Osteoarthritis in elderly using wireless low-cost inertial sensors."
+excerpt: "Built a device / methodology to predict the onset and track the progress of Knee Osteoarthritis in elderly using wireless low-cost inertial sensors. Skills: C, Sensor System IMUs, Microcontroller programming, Circuit Design, Signal Processing, Machine Learning (SVM), Motion Capture" 
 collection: portfolio
 ---
 PredicKOA or Predicting Knee Osteoarthritis was my undergraduate thesis project at IIT Roorkee. The goal of the project was to build a device / methodology to predict the onset and track the progress of Knee Osteoarthritis in elderly using wireless low-cost inertial sensors. This project was inspired by lack of Motion capture technology and the skillset required to operate them in budget contrained settings with poor healthcare infrastructure- rural areas, developing countries, etc. Additionally, it can help in better identifying new bio-markers for diseases affecting the muskuloskeletal system with motion data from users in their natural work / home setting. Furthermore, application of this could be extended to track progress of other physio / neurological diseases affecting mobility especially in elderly.
